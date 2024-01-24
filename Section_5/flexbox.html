@@ -46,14 +46,36 @@
       .flex-container7 {
         justify-content: flex-end;
         align-items: flex-start;
-        flex-direction: row-reverse;
+        flex-direction: column;
         height: 400px;
       }
 
       .flex-container7 div {
         background-color: yellow;
         width: 50px;
-        height: 50px;
+        height: 20px;
+      }
+
+      .flex-container7 .div2 {
+        flex-basis: 100px;
+      }
+
+      .flex-container8 {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-container8 div {
+        flex-basis: 50px;
+        background-color: orange;
+      }
+
+      .flex-container8 .div2 {
+        flex-grow: 1;
+      }
+
+      .flex-container8 .div4 {
+        flex-grow: 2;
       }
     </style>
   </head>
@@ -80,6 +102,13 @@
     </div>
 
     <div class="flexbox flex-container7">
+      <div class="div1">1</div>
+      <div class="div2">2</div>
+      <div class="div3">3</div>
+      <div class="div4">4</div>
+    </div>
+
+    <div class="flexbox flex-container8">
       <div class="div1">1</div>
       <div class="div2">2</div>
       <div class="div3">3</div>

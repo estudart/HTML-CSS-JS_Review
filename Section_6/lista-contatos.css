@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(169, 221, 224);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  height: 200px;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  overflow-y: scroll;
+  border-radius: 0.5%;
+}
+
+.list-item {
+  display: flex;
+  height: 110px;
+}
+
+.list-item:hover {
+  background-color: rgb(185, 176, 176);
+}
+
+.picture {
+  margin: 2% 2% 3% 2%;
+  max-width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.contact-info {
+  width: 100%;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.email {
+  margin-top: 0px;
+}
+
+.contact-info > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two {
+  color: white;
+}
