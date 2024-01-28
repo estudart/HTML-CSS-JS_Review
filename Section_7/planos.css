@@ -36,6 +36,7 @@ body {
   color: white;
   text-transform: uppercase;
   text-align: center;
+  margin: 50px;
 }
 
 .cards {
@@ -61,12 +62,17 @@ body {
   text-transform: uppercase;
   border-bottom: 2px solid yellow;
   margin-top: 0px;
+  padding-bottom: 5px;
 }
 
 .card__price {
   color: white;
-  font-size: bold;
   margin-top: 0px;
+  font-size: small;
+}
+
+.card__price spam {
+  font-size: large;
 }
 
 .card ul {
